@@ -15,14 +15,11 @@
     <!-- Navbar fixa -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a href="#" class="navbar-brand">{{ $title }}</a>
+            <a href="{{ url('/') }}" class="navbar-brand">{{ $title }}</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/') }}">Escopo 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/escopo2') }}">Escopo 2</a>
+                        <a class="nav-link" href="{{ url('/') }}">{{ $title }}</a>
                     </li>
                 </ul>
             </div>

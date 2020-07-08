@@ -14,9 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('escopo1', ['title' => 'Escopo 1 - GitHub Finder']);
-});
-
-Route::get('/escopo2', function () {
-    return view('escopo2', ['title' => 'Escopo 2 - Acert API Consumer']);
+    return view('index', ['title' => 'GitHub Finder']);
 });
